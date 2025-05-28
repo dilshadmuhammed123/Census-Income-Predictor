@@ -1,20 +1,24 @@
 # 🧠 Income Prediction Using Census Data
 
-Welcome to the **Income Prediction ML Project Assignment**!  
-In this project, you will build a machine learning model to predict whether a person earns more than $50K per year using demographic and work-related attributes.
+A Machine Learning project that predicts whether an individual's income exceeds $50,000/year based on various demographic features from the Adult Census Income dataset. The project includes exploratory data analysis (EDA), model building, evaluation, and deployment using both Flask and Streamlit web applications.
 
 ---
 
 ## 🎯 Objective
 
-Your task is to:
+The primary objective of the Census Income Predictor project is to build a machine learning model that accurately predicts whether an individual’s annual income exceeds $50,000 or not based on demographic and socio-economic attributes. This classification task helps in identifying income groups for policy-making, market segmentation, and economic research.
 
-- Perform **Exploratory Data Analysis (EDA)** on the "Adult Census Income" dataset.
-- **Preprocess the data** to make it suitable for machine learning.
-- Build and evaluate a **classification model** to predict income (`>50K` or `<=50K`).
-- Deploy the model using both:
-  - A **Flask web application**
-  - A **Streamlit app**
+By analyzing data from the Adult Census dataset, the project aims to:
+
+Understand the key factors influencing income levels such as education, occupation, and hours worked.
+
+Apply data preprocessing and feature engineering techniques to clean and transform the data.
+
+Train and evaluate various classification algorithms to select the best-performing model.
+
+Deploy the final model through a user-friendly web interface using Flask and Streamlit, enabling real-time predictions for new user inputs.
+
+Ultimately, this project demonstrates the practical application of data science—from data exploration and modeling to deployment—to solve a real-world classification problem in the domain of socio-economic analytics.
 ---
 
 ## 📦 Dataset Information
